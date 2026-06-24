@@ -6,7 +6,8 @@ permissions:
   contents: write
 
 env:
-  GO_VERSION: 'oldstable'
+  # timereplace require Go 1.26+
+  GO_VERSION: '1.26'
 
 jobs:
 
